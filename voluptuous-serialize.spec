@@ -4,7 +4,7 @@
 #
 Name     : voluptuous-serialize
 Version  : 2.3.0
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/9c/b0/4df1ac9857141ff20d58a97afa66a128f8dd45b80116204e0c4021a4b9a5/voluptuous-serialize-2.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9c/b0/4df1ac9857141ff20d58a97afa66a128f8dd45b80116204e0c4021a4b9a5/voluptuous-serialize-2.3.0.tar.gz
 Summary  : Convert voluptuous schemas to dictionaries
@@ -33,6 +33,7 @@ python components for the voluptuous-serialize package.
 Summary: python3 components for the voluptuous-serialize package.
 Group: Default
 Requires: python3-core
+Provides: pypi(voluptuous-serialize)
 
 %description python3
 python3 components for the voluptuous-serialize package.
@@ -40,13 +41,14 @@ python3 components for the voluptuous-serialize package.
 
 %prep
 %setup -q -n voluptuous-serialize-2.3.0
+cd %{_builddir}/voluptuous-serialize-2.3.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569948991
+export SOURCE_DATE_EPOCH=1582904389
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
