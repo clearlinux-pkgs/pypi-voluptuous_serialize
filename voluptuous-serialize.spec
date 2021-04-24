@@ -4,7 +4,7 @@
 #
 Name     : voluptuous-serialize
 Version  : 2.4.0
-Release  : 19
+Release  : 20
 URL      : https://files.pythonhosted.org/packages/c5/70/e9248a3dfe1bb8fbc8ee2befb45bfe724989f2db943a4d2033623b0518c8/voluptuous-serialize-2.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c5/70/e9248a3dfe1bb8fbc8ee2befb45bfe724989f2db943a4d2033623b0518c8/voluptuous-serialize-2.4.0.tar.gz
 Summary  : Convert voluptuous schemas to dictionaries
