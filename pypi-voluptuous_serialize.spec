@@ -4,7 +4,7 @@
 #
 Name     : pypi-voluptuous_serialize
 Version  : 2.5.0
-Release  : 30
+Release  : 31
 URL      : https://files.pythonhosted.org/packages/6f/cb/b4b17beb5d09a501392c1050f3d3bee3ddc9a7e9531d95f7b41c6548ce8a/voluptuous-serialize-2.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6f/cb/b4b17beb5d09a501392c1050f3d3bee3ddc9a7e9531d95f7b41c6548ce8a/voluptuous-serialize-2.5.0.tar.gz
 Summary  : Convert voluptuous schemas to dictionaries
@@ -57,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641599322
+export SOURCE_DATE_EPOCH=1649793554
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
